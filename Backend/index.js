@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
-import customerRouters from "../../Backend/routes/customerRoutes.js";
+import customerRouters from "./routes/customerRoutes.js";
 
 import "dotenv/config";
 

@@ -1,4 +1,4 @@
-import CustomerData from "../../InventoryControl/Backend/models/customers.js";
+import CustomerData from "../models/customers.js";
 
 export const addCustomer = async (req, res) => {
     const customer = req.body;
