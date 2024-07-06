@@ -1,9 +1,9 @@
 import express from 'express';
-import { addItem, getAllInventory, editItem, deleteItem} from './controllers/customerController.js';
+import { addInventory, getAllInventory, editItem, deleteItem} from '../controllers/inventory.js';
 
 const router = express.Router();
 
-router.post('/', addItem);
+router.post('/', addInventory);
 router.get('/', getAllInventory);
 router.patch('/:id', editItem);
 router.delete('/:id', deleteItem);
