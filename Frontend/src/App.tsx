@@ -1,11 +1,11 @@
 import './App.scss'
-import AddCustomerView from './views/AddCustomer/AddCustomerView'
+import HomeView from './views/Home/HomeView'
 
 function App() {
 
   return (
     <>
-      <AddCustomerView />
+      <HomeView/>
     </>
   )
 }
