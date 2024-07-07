@@ -14,7 +14,7 @@ app.use("/customer", customerRouters);
 app.use("/inventory", inventoryRouters);
 
 mongoose.connect(
-    `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@minifigs.zvwzg7m.mongodb.net/?retryWrites=true&w=majority&appName=Minifigs`
+  `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@minifigs.zvwzg7m.mongodb.net/?retryWrites=true&w=majority&appName=Minifigs`
 );
 
 app.listen(process.env.PORT || 5000, () => {
