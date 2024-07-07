@@ -15,7 +15,8 @@ export const addInventory = async (req, res) => {
 
 export const getAllInventory = async (req, res) => {
     try {
-        const inventory = await CustomerData.find();
+        const inventory = await InventoryData.find();
+        console.log(inventory)
         res.status(200).json(inventory);
     } catch (error) {
         res.status(400).json({ message: error.message });

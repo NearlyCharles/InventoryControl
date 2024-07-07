@@ -1,0 +1,27 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    background-color: rgb(25, 118, 210);
+
+    .left-container{
+        h1{
+            color: white;
+            font-size: 28px;
+        }
+    }
+
+    .right-container{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+
+        .link{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+    }
+}

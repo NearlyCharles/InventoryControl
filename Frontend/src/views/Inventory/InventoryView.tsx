@@ -1,8 +1,9 @@
-import React from "react"
-import {Table} from "@mui/material"
+import React from 'react'
 
 function InventoryView() {
-    return (<div>hello</div>)
+  return (
+    <div>InventoryView</div>
+  )
 }
 
-export default InventoryView;
+export default InventoryView

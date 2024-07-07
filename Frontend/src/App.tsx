@@ -1,13 +1,15 @@
-import './App.scss'
-import AddCustomerView from './views/AddCustomer/AddCustomerView'
+// import './App.scss'
+// import React from "react"
+// import Nav from './components/Nav/Nav'
+// import AddCustomerView from './views/AddCustomer/AddCustomerView'
+// import { Outlet } from 'react-router-dom'
 
-function App() {
+// function App() {
 
-  return (
-    <>
-      <AddCustomerView />
-    </>
-  )
-}
+//   return (
+//     <div className='app-container'> 
+//     </div>
+//   )
+// }
 
-export default App
+// export default App
