@@ -1,5 +1,5 @@
 
-
+import "./HomeView.scss"
 import React from 'react';
 import Card from '../../components/Card/Card';
 import "./HomeView.scss";
@@ -38,9 +38,9 @@ function HomeView() {
         </Box>
       </div>
       <div className='card-container'><Card header='Sales Total' mainFocus={837.34} percentage={13.45} descriptionOfPercentage='vs. previous day'/></div>
-      <div className='card-container'><Card /></div>
-      <div className='card-container'><Card /></div>
-      <div className='card-container'><Card /></div>
+      <div className='card-container'><Card header='Sales Total' mainFocus={837.34} percentage={13.45} descriptionOfPercentage='vs. previous day'/></div>
+      <div className='card-container'><Card header='Sales Total' mainFocus={837.34} percentage={13.45} descriptionOfPercentage='vs. previous day'/></div>
+      <div className='card-container'><Card header='Sales Total' mainFocus={837.34} percentage={13.45} descriptionOfPercentage='vs. previous day'/></div>
       <div className='graph-select-range-container'>
       <Box sx={{ minWidth: 140 }}>
           <FormControl fullWidth>
