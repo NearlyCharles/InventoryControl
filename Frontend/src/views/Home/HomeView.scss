@@ -1,19 +1,42 @@
-.dashboard-container {
+.home-view-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin: 30px 80px;
   overflow-y: auto;
+  gap: 20px;
 
-  .graph-container {
-    background-color: rgb(171, 171, 233);
-    display: inline-grid;
-    padding: 100px;
-    margin: 30px 60px 10px 60px;
-    border-radius: 10px;
+  &::-webkit-scrollbar {
+    display: none;
   }
-  .graph-container:nth-child(5) {
-    grid-column-start: 1;
-    grid-column-end: span col4-start;
+
+  .short-list-select-container {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    margin: 10px;
+    justify-self: end;
+  }
+
+  .card-container {
     grid-row-start: 2;
     grid-row-end: 3;
+  }
+  .graph-select-range-container {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sales-forecast-container {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
   }
 }
