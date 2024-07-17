@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { useSnackbar } from "@mui/base/useSnackbar";
 
 function InventoryView() {
   return (
-    <div>InventoryView</div>
-  )
+    <div>
+      <div>InventoryView</div>
+    </div>
+  );
 }
 
-export default InventoryView
+export default InventoryView;
