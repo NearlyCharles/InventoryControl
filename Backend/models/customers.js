@@ -19,7 +19,7 @@ const customerSchema = new mongoose.Schema({
   },
   storeCredit: {
     required: true,
-    type: Number
+    type: String
   }
 });
 

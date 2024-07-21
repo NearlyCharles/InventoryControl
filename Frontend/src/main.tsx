@@ -7,6 +7,7 @@ import HomeView from './views/Home/HomeView.tsx';
 import ProcedureView from './views/Procedure/ProcedureView.tsx';
 import CheckoutView from './views/Checkout/CheckoutView.tsx';
 import InventoryView from './views/Inventory/InventoryView.tsx';
+import CustomerView from './views/Customer/CustomerView.tsx';
 
 const router = createBrowserRouter([
   {
@@ -18,16 +19,20 @@ const router = createBrowserRouter([
         element: <HomeView />,
       },
       {
-        path: '/procedure',
+        path: '/Procedure',
         element: <ProcedureView/>,
       },
       {
-        path: '/checkout',
+        path: '/Checkout',
         element: <CheckoutView />,
       },
       {
-        path: '/inventory',
+        path: '/Inventory',
         element: <InventoryView/>,
+      },
+      {
+        path: '/Customer',
+        element: <CustomerView/>,
       },
     ],
   },

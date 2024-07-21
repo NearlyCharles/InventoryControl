@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Button from '@mui/material/Button';
 import { Link, Outlet } from 'react-router-dom';
 
-const pages = ['Home', 'Inventory', 'Checkout', 'Procedure'];
+const pages = ['Home', 'Inventory', 'Checkout', 'Procedure', 'Customer'];
 
 function Nav() {
   return (
